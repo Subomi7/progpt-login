@@ -1,0 +1,142 @@
+body {
+  padding: 0 11rem;
+  font-family: 'Space Grotesk', sans-serif;
+  margin: auto;
+  box-sizing: border-box;
+  background-image: url(images/image1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem 4rem 4rem;
+}
+
+.header1 {
+  color: dimgray;
+}
+
+.main {
+  background-color: #333333;
+  border-radius: 14px;
+  margin: auto;
+  padding: auto;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.btn {
+  background-color: #4269e2;
+  color: #eee;
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  border-radius: 3rem;
+}
+
+.btn  a {
+   text-decoration: none;
+   color: #eee;
+}
+
+.btn1 {
+  background-color: #000;
+  color: #eee;
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  border-radius: 3rem;
+}
+
+.btn1  a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.btn2 {
+  background-color: #4269e2;
+  color: #eee;
+  width: 6rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 3rem;
+}
+
+.btn2  a {
+  text-decoration: none;
+  color: #eee;
+}
+
+
+.form-control {
+  border: none;
+  width: 30rem;
+  height: 2.5rem;
+  border-radius: 0.8rem;
+}
+
+.forgot-password a {
+  color: #eee;
+  text-decoration: none;
+  border-bottom: 1px solid #eee;
+}
+
+.icons {
+  display: flex;
+  gap: 4rem;
+  font-size: 2rem;
+}
+
+.icons a {
+  text-decoration: none;
+}
+
+.alternative a {
+  text-decoration: none;
+  color: #eee;
+}
+.devicon-google-plain:hover {
+  color: #eee;
+}
+
+.devicon-facebook-plain:hover {
+  color: #eee;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  padding-top: 6rem;
+}
+
+.term {
+  border-right: 1px solid #eee;
+  padding-right: 1rem;
+  font-size: 0.7rem;
+}
+
+.privacy {
+  padding-left: 1rem;
+  font-size: 0.7rem;
+}
+
+@media (max-width: 768px) {
+ .form-control{
+  width: 100%;
+ }
+}
